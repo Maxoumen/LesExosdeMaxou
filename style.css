@@ -24,7 +24,6 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Amélioration des blocs */
 .box {
   border: none !important;
   background-color: #ffffff;
@@ -42,43 +41,4 @@ a:hover {
 
 .box:hover {
   background-color: #ecf0f1;
-}
-
-/* Formulaire stylé */
-form {
-  max-width: 500px;
-  margin: 0 auto;
-  background-color: white;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-label {
-  display: block;
-  margin-top: 15px;
-  font-weight: bold;
-}
-
-input, textarea {
-  width: 100%;
-  padding: 10px;
-  margin-top: 5px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-}
-
-button {
-  margin-top: 20px;
-  padding: 10px 15px;
-  background-color: #3498db;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-button:hover {
-  background-color: #2980b9;
 }
